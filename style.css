@@ -97,24 +97,6 @@ h1 {
   margin: 0;
 }
 
-@media (max-width: 500px) {
-  h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 415px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-}
-
-@media (max-width: 350px) {
-  h1 {
-    font-size: 2rem;
-  }
-}
-
 .boxLogo {
   width: 100%;
   padding: 10px 0;
@@ -138,6 +120,11 @@ h1 {
   border-radius: 10px;
   font-family: oswald;
   border: 1px solid palevioletred;
+}
+@media (max-width: 615px) {
+  .button {
+    font-size: 2.5rem;
+  }
 }
 
 p {
@@ -164,4 +151,30 @@ p {
   display: grid;
   width: 100vw;
   gap: 20px;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .button {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 415px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .button {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .button {
+    font-size: 1.3rem;
+  }
 }
